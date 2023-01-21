@@ -19,7 +19,7 @@ $balance = $scanner->getBalance();
 echo "<b>Balance</b><br>";
 echo "Current: {$balance}<br>";
 
-$info = $scanner->getInfo($productId);
+/* $info = $scanner->getInfo($productId);
 // $info = new \MarketScanner\Model\Info($key, $productId);
 
 echo "<b>Info</b><br>";
@@ -132,4 +132,4 @@ foreach ($specs as $specNumber => $specCollection) {
 
     }
 }
-
+*/
