@@ -39,13 +39,13 @@ foreach ($prices as $priceIndex => $price) {
     echo "{$priceIndex} => {$price->getPrice()}<br>";
 }
 echo '<hr>';
-
+*/
 echo "<b>Search</b><br>";
 $search = $scanner->getSearchModel('Туалетная бумага Veiro');
 echo "ID: {$search->getId()}<br>";
 echo "Name: {$search->getName()}<br>";
 echo "URL: {$search->getUrl()}<hr>";
-
+/*
 // All methods:
 //
 // $info->getName()
