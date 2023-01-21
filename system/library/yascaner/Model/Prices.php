@@ -2,7 +2,7 @@
 /**
  * @link https://ymscanner.ru/api/bulkprice
  */
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
 class Prices extends Base {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MarketScanner\Model\HTTP;
+namespace FccScanner\Model\HTTP;
 
 use Exception;
 use stdClass;

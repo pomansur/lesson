@@ -11,16 +11,16 @@ $productId = 415763024;
 /**
  * Init base class
  */
-$scanner = new \MarketScanner\Scanner($key);
+$scanner = new \FccScanner\Scanner($key);
 
 $balance = $scanner->getBalance();
-// $balance = (new \MarketScanner\Model\Balance($key))->getBalance();
+// $balance = (new \FccScanner\Model\Balance($key))->getBalance();
 
 echo "<b>Balance</b><br>";
 echo "Current: {$balance}<br>";
 
 /* $info = $scanner->getInfo($productId);
-// $info = new \MarketScanner\Model\Info($key, $productId);
+// $info = new \FccScanner\Model\Info($key, $productId);
 
 echo "<b>Info</b><br>";
 echo "Name: {$info->getName()}<br>";
@@ -96,7 +96,7 @@ foreach ($reviews as $review) {
 
 $photos = $scanner->getPhotos($productId);
 // $photos = $scanner->getPhotos($productId, '50x50');
-// $photos = (new \MarketScanner\Model\Photos($key, $productId))->getPictures('original');
+// $photos = (new \FccScanner\Model\Photos($key, $productId))->getPictures('original');
 
 echo "<b>Photos</b><br>";
 
@@ -111,7 +111,7 @@ foreach ($photos as $photoNumber => $photoCollection) {
 echo "<hr>";
 
 $specs = $scanner->getSpecs($productId);
-// $specs = (new \MarketScanner\Model\Specs($key, $productId))->getSpecifications();
+// $specs = (new \FccScanner\Model\Specs($key, $productId))->getSpecifications();
 
 echo "<b>Specifications</b><br><br>";
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
 use Exception;
-use MarketScanner\Model\HTTP\Request;
-use MarketScanner\Model\HTTP\Response;
+use FccScanner\Model\HTTP\Request;
+use FccScanner\Model\HTTP\Response;
 use stdClass;
 
 class Base {

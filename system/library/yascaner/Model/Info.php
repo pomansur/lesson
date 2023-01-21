@@ -2,7 +2,7 @@
 /**
  * @link https://ymscanner.ru/doc/info
  */
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
 class Info extends Base {
 

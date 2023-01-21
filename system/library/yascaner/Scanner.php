@@ -1,15 +1,15 @@
 <?php
 
-namespace MarketScanner;
+namespace FccScanner;
 
-use MarketScanner\Model\Balance;
-use MarketScanner\Model\Info;
-use MarketScanner\Model\Photos;
-use MarketScanner\Model\Price;
-use MarketScanner\Model\Prices;
-use MarketScanner\Model\Searchmodel;
-use MarketScanner\Model\Specs;
-use MarketScanner\Model\Reviews;
+use FccScanner\Model\Balance;
+use FccScanner\Model\Info;
+use FccScanner\Model\Photos;
+use FccScanner\Model\Price;
+use FccScanner\Model\Prices;
+use FccScanner\Model\Searchmodel;
+use FccScanner\Model\Specs;
+use FccScanner\Model\Reviews;
 
 class Scanner {
 

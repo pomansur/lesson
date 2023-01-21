@@ -2,7 +2,7 @@
 /**
  * @see https://ymscanner.ru/doc/specs
  */
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
 class Specs extends Base {
 

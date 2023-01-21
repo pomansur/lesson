@@ -2,7 +2,7 @@
 /**
  * @see https://ymscanner.ru/doc/photos
  */
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
 class Photos extends Base {
 

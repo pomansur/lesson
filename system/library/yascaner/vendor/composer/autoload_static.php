@@ -27,15 +27,15 @@ class ComposerStaticInit39489529d4a8fe41ab4fe76541cf9546
         array (
             'Psr\\Http\\Message\\' => 17,
         ),
-        'M' => 
-        array (
-            'MarketScanner\\' => 14,
-        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+        ),
+        'F' => 
+        array (
+            'FccScanner\\' => 11,
         ),
     );
 
@@ -56,10 +56,6 @@ class ComposerStaticInit39489529d4a8fe41ab4fe76541cf9546
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'MarketScanner\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/',
-        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -71,6 +67,10 @@ class ComposerStaticInit39489529d4a8fe41ab4fe76541cf9546
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'FccScanner\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
         ),
     );
 

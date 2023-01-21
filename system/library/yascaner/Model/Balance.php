@@ -2,9 +2,9 @@
 /**
  * @see https://ymscanner.ru/doc/balance
  */
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
-use MarketScanner\Model\HTTP\Request;
+use FccScanner\Model\HTTP\Request;
 use Exception;
 
 class Balance extends Base {

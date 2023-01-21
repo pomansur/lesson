@@ -1,0 +1,9 @@
+{
+    "name": "fcc/fccscaner",
+    "autoload": {
+        "psr-4": {
+            "FccScanner\\": ""
+        }
+    },
+    "require": {}
+}

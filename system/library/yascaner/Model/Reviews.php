@@ -2,7 +2,7 @@
 /**
  * @see https://ymscanner.ru/doc/reviews
  */
-namespace MarketScanner\Model;
+namespace FccScanner\Model;
 
 class Reviews extends Base {
 
